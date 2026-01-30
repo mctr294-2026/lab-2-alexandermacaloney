@@ -72,7 +72,7 @@ bool bisection(std::function<double(double)> f,
 bool regula_falsi(std::function<double(double)> f, 
 // Returns true if the root has been found. 
 // Returns false otherwise (i.e.: if unable to finmd a root or if there are invalid inputs)
-// std::function< > holds the callable function
+// std::function< > holds the callable function.
 // double(double) takes an input of type double (a type of precise float number) and spits out a double
                double a, double b, // This line represents the two endpoints of the interval [a,b]
                double* root) // Pointer to root. Answer stored here. Allows function to write into variable that exists outside of the function
